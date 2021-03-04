@@ -1,4 +1,4 @@
-### [批量高清图片压缩](./python 3.7 批量图片压缩/compressImg.py)
+### [批量高清图片压缩](https://github.com/Rattenking/dev-python-tool/blob/master/python%203.7%20%E6%89%B9%E9%87%8F%E5%9B%BE%E7%89%87%E5%8E%8B%E7%BC%A9/compressImg.py)
 #### 环境
 1. 安装 Pillow
 ```
