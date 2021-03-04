@@ -4,8 +4,14 @@
 ```
   pip install Pillow
 ```
+
 2. 运行环境
 > python 3.7
+
+3. 直接导入需要的包
+```
+  pip install -r requirements.txt
+```
 
 #### 运行参数
 ```
@@ -41,6 +47,11 @@ basename = 'newimg-'
 #### 运行参数
 ```
   skinsFolder = 'lol_skins'
+```
+
+3. 直接导入需要的包
+```
+  pip install -r requirements.txt
 ```
 
 |参数|说明|默认值|
