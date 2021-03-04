@@ -29,7 +29,7 @@ basename = 'newimg-'
   python compressImg.py
 ```
 
-### [LOL 皮肤海报爬取](./python 3.7 LOL 皮肤海报爬取/downloadSkins.py)
+### [LOL 皮肤海报爬取](https://github.com/Rattenking/dev-python-tool/blob/master/python%203.7%20LOL%20%E7%9A%AE%E8%82%A4%E6%B5%B7%E6%8A%A5%E7%88%AC%E5%8F%96/downloadSkins.py)
 #### 环境
 1. 安装 requests
 ```
