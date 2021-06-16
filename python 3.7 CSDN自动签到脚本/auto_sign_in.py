@@ -13,7 +13,7 @@ def is_element_exist(driver, element):
     return flag
 
 def auto_sign_in_csdn():
-  driver = webdriver.Chrome()
+  driver = webdriver.Chrome("G:\Program Files (x86)\Google\Google\Chrome\Application\chromedriver.exe")
   print(datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
   try:
     driver.maximize_window()
@@ -32,6 +32,7 @@ def auto_sign_in_csdn():
     driver.quit()
 
 if __name__ == '__main__':
-  scheduler = BlockingScheduler()
-  scheduler.add_job(auto_sign_in_csdn, 'cron', day_of_week='0-6', hour=9, minute=10)
-  scheduler.start()
+  auto_sign_in_csdn()
+  # scheduler = BlockingScheduler()
+  # scheduler.add_job(auto_sign_in_csdn, 'cron', day_of_week='0-6', hour=9, minute=10)
+  # scheduler.start()
